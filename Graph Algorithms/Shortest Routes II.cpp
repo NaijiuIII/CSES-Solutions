@@ -19,7 +19,7 @@ int main() {
         cin>>a>>b>>c;
 
         dis[a][b]=min(dis[a][b],c);
-        dis[b][a]=min(dis[a][b],c);
+        dis[b][a]=min(dis[b][a],c);
     }
 
     for (int k=1;k<=n;k++){
